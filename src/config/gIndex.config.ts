@@ -39,7 +39,7 @@ const config: gIndexConfig = {
      * You need to create a new folder and share it with the service account
      * Then, copy the folder id and paste it here
      */
-    rootFolder: "1KgPV6QB1GYT8fmn2uTfbtr9rDXqcRR0j",
+    rootFolder: "1yHBz0mocDprU24vb6bn0RZSHLBtrtGut",
     isTeamDrive: false, // Set this to true if you're using Team Drive
     defaultQuery: ["trashed = false", "(not mimeType contains 'google-apps' or mimeType contains 'folder')"],
     defaultField:
@@ -97,11 +97,11 @@ const config: gIndexConfig = {
     /**
      * This value will be used for metadata
      */
-    siteName: "next-gdrive-index",
-    siteDescription: "A simple file browser for Google Drive",
+    siteName: "MyHome Homedrive",
+    siteDescription: "A simple file browser",
     siteIcon: "/flaticon.svg",
     favIcon: "/favicon.svg",
-    twitterHandle: "@mbaharip_",
+    twitterHandle: "",
 
     /**
      * Tailwind color name.
@@ -128,6 +128,7 @@ const config: gIndexConfig = {
      * }
      */
     navbarItems: [
+      /**
       {
         icon: "ion:document-text",
         name: "Documentation",
@@ -151,6 +152,7 @@ const config: gIndexConfig = {
         name: "Contact",
         href: "mailto:support@mbaharip.com",
       },
+      */
     ],
   },
 };
